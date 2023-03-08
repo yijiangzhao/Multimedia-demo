@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+29f4840da0f0251dab3a9f6fc6ee7a33 bmgui-lite/CMakeFiles/bmgui-lite_autogen
+1a91e7dcd77d201193dd735ab8bea410 bmgui/CMakeFiles/bmgui_autogen
+38fe45f9afdbdd476f8ab6071a00d9c1 bmgui/CMakeFiles/videoui_demo_autogen

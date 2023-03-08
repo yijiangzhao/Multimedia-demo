@@ -1,0 +1,33 @@
+{
+  "max_show_windows": 16,
+  "cards": [
+    {
+      "devid": 0,
+      "cameras": [
+        {
+          "address": "/data/workspace/media/face.h264",
+          "chan_num": 2,
+          "road_ROI":[[300, 920],[790, 710],[790, 710],[1320, 1000]],
+          "HMat":[[-0.071373375192590932, 0.93679658370686325, 827.77065428123217],
+          [1.5356038526388631, 1.5258972976932177, 825.70401812623572],
+          [-0.0000012780565836024395, 0.0015982062486240784, 1.0]]
+        }
+      ]
+    }
+  ],
+  "pipeline": {
+    "preprocess": {
+      "thread_num": 4,
+      "queue_size": 16
+    },
+    "inference": {
+      "thread_num": 1,
+      "queue_size": 16
+    },
+    "postprocess": {
+      "thread_num": 4,
+      "queue_size": 16
+    }
+  }
+}
+
